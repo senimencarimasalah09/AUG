@@ -42,7 +42,7 @@ parser.add_argument(
     help="Use a SOCKS5 proxy for connecting",
 )
 parser.add_argument(
-    "--proxy-host", default="192.168.1.1", help="SOCKS5 proxy host"
+    "--proxy-host", default="111.122.133.149", help="SOCKS5 proxy host"
 )
 parser.add_argument(
     "--proxy-port", default="8080", help="SOCKS5 proxy port", type=int
